@@ -1,0 +1,16 @@
+[project]
+name = "pokemon-scraping-demo"
+version = "0.1.0"
+description = "Web scraping demo: BeautifulSoup & Firecrawl + PCA + Pokémon sprite scatter plot"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "requests>=2.31",
+    "pandas>=2.2",
+    "scikit-learn>=1.4",
+    "matplotlib>=3.8",
+    "Pillow>=10.3",
+    "firecrawl-py>=1.0",
+    "python-dotenv>=1.0",
+    "lxml>=5.0",
+]
