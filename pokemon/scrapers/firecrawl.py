@@ -37,7 +37,7 @@ def scrape() -> pd.DataFrame:
     app = FirecrawlApp(api_key=api_key)
 
     # Request clean HTML; Firecrawl handles JS rendering & bot detection.
-    result = app.scrape_url(URL, formats=["html"])
+    result = app.scrape(URL, formats=["html"])
     html: str = result.html  # type: ignore[union-attr]
 
     if not html:
